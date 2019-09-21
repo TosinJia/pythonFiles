@@ -1,0 +1,5 @@
+
+BaseException
+SystemExit
+Warning
+Exception
