@@ -3,8 +3,29 @@
 ## AndroidDebugBridge
 ### 下载地址
 - https://dl.google.com/android/repository/platform-tools_r30.0.5-windows.zip
+```
+D:\Program Files (x86)\platform-tools>adb shell input keyevent 223
+adb server version (31) doesn't match this client (41); killing...
+error: unknown host service
+could not read ok from ADB Server
+* failed to start daemon
+adb.exe: cannot connect to daemon
 
+D:\Program Files (x86)\platform-tools>adb version
+Android Debug Bridge version 1.0.41
+Version 30.0.5-6877874
+Installed as D:\Program Files (x86)\platform-tools\adb.exe
+```
+#### 奇兔刷机
+- http://www.7to.cn/
+    - 15829262779 qt123456
+- https://club.huawei.com/thread-15969593-1-1.html
+```
+D:\Program Files (x86)\奇兔刷机\AdbAdapter>adb shell input keyevent 223
 
+D:\Program Files (x86)\奇兔刷机\AdbAdapter>adb version
+Android Debug Bridge version 1.0.31
+```
 ### Python
 - [Python Python3 执行 adb shell 命令详解](https://testerhome.com/topics/20497)
 ```
