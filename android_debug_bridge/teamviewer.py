@@ -14,6 +14,8 @@ cmd = "adb devices"
 # res = adb_shell1(cmd)
 # print(res)
 
+# 注：奇兔连接成功后，执行 adb server version (31) doesn't match this client (41); killing...\nerror: unknown host service\ncould not read ok from ADB Server\n* failed to start daemon\nadb.exe: failed to check server version: cannot connect to daemon
+## 关闭奇兔重新连接后，正常执行
 
 def curTime(seconds):
     curTime = time.localtime(seconds)

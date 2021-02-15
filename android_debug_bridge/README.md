@@ -2,6 +2,8 @@
 
 ## AndroidDebugBridge
 ### 下载地址
+- [官网](https://developer.android.com/studio/command-line/adb)
+
 - https://dl.google.com/android/repository/platform-tools_r30.0.5-windows.zip
 ```
 D:\Program Files (x86)\platform-tools>adb shell input keyevent 223
