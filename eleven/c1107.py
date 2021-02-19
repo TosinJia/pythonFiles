@@ -25,6 +25,8 @@ class VIP(Enum):
     BLACK = '3'
     RED = 4
 
+print(type(VIP1.BLACK.value))
+
 
 
 
